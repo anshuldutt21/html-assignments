@@ -1,0 +1,372 @@
+*{
+
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+.mainimage{
+	background-image: url(brooke-lark-500141-unsplash.jpg);
+	height: 900px;
+	width: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	display: flex;
+}
+.header{
+	margin: 0px 100px;
+	background-color: white;
+	padding: 10px;
+	position: fixed;
+	width: 82%;
+	z-index: 1;
+}
+#heading{
+	font-family: Georgia, serif;
+	font-size: 30px;
+	margin-top: 15px;
+	margin-bottom: 4px;
+	padding-left: 6px;
+}
+.listhead{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+li{
+	margin: 5px 15px 15px 15px;
+	font-size: 18px;
+	color: #515A5A;	
+}
+#imp{
+	font-size: 18px;
+	color: #515A5A;
+	margin-top: 3px;
+	float: left;
+	padding-left: 6px;
+}
+.topic{
+     position: absolute;
+     top: 400px;
+     left:200px;
+}
+#welcome{
+	font-size: 4.5em;
+	word-spacing: 4px;
+	color: #17202A;
+}
+#get{
+
+margin: 12px;
+margin-bottom: 30px;
+font-size: 26px;
+color: #515A5A;	
+}
+.link1{
+	padding: 12px;
+	margin-top: 10px;
+	border-radius: 2px;
+	border: 1px solid black;
+	color: black;
+
+}
+.top{
+       
+}
+@media screen and (max-width: 780px){
+	.blog{
+		display: flex;
+		flex-direction: column;
+           
+	}
+	body{
+		background-color: black;
+	}
+}
+.blog{
+	background-color: #F2F4F4;
+    
+	padding: 45px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.new1{
+	flex: 6;
+	display: flex;
+	flex-direction: column;
+}
+
+.new2{
+	flex: 4;
+	margin-right: 0;
+	flex-direction: column;
+}
+.blog1{
+	background-color: white;
+	display: flex;
+	align-items: center;
+	margin: 20px;
+	
+	margin-left: 10%;
+}
+#img1 {
+   float: left; 
+   width: 400px;
+   margin-right: 8px;
+   padding: 0px;
+   margin-top: 0px;
+}
+.matter{
+	display: block;
+	font-size: 26px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	background-color: white;
+	padding: 37px 20px;
+	color: #117A65;
+}
+.line{
+	color: black;
+	padding-top: 20px;
+	font-size: 15px;
+}
+.fa-heart{
+	color: red;
+	text-align: right;
+	font-size: 20px;
+	margin-top: 20px;
+}
+.icon{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-right: 9px;
+}
+.blog2{
+	padding-bottom: 22px;
+	margin-top: 20px;
+	width: 400px;
+	background-color: white;
+}
+
+#img2{
+    
+   width: 400px;
+
+}
+#sub{
+	display: block;
+	font-size: 20px;
+	color: black;
+	line-height: 1.5em;
+	font-family: "Courier New", Courier, monospace;
+	background-color: white;
+	padding: 0px 20px;
+	color: #117A65;
+}
+.blog3{
+	margin-top: 40px;
+	width: 400px;
+	height: 470px;
+	background-size: cover;
+	background-image: url(eiliv-sonas-aceron-789896-unsplash.jpg);	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.shop{
+	text-align: center;
+	padding-left: 10px;
+}
+.matter2{
+      	font-size: 26px;
+	font-family: 'Lobster', cursive;
+	background-color: white;
+	padding: 20px; 
+}
+.fb{
+	width: 40px;
+	height: 40px;
+	margin: 10%;
+	padding-bottom: 20px;
+}
+.listt{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+}
+.blog5{
+	margin-top: 40px;
+	width: 400px;
+	height: 190px;
+	background-size: cover;
+	background-color: white;
+	margin-right: 15%;	
+	display: flex;
+	flex-direction: column;
+}
+.matter4{
+     color: #117A65;
+     text-align: center;
+     padding: 10px;
+     font-size: 18px;
+     padding-top: 15px;
+}
+.text{
+	margin:5% 15%;
+	padding: 10px;
+	color: #0F7387;
+	font-size: 15px;
+}
+.text::placeholder{
+color: #0F7387;
+font-size: 15px;
+}
+.text:placeholder-shown{
+   
+
+}
+.sub{
+	font-size: 18px;
+	text-align: center;
+	padding: 10px 20px;
+    background-color: #0F7387;
+    margin: 0 15%;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+.blog4{
+		margin-top: 40px;
+	width: 400px;
+	height: 190px;
+	background-size: cover;
+	background-color: #0F7387;	
+	display: flex;
+	flex-direction: column;
+}
+.matter3{
+            	font-size: 18px;
+	font-family: 'Roboto Slab', serif;
+	color: white;
+	padding: 20px;
+	padding-bottom: 0px; 
+	margin: 10%;
+	margin-bottom: 0;
+	text-align: center;
+}
+.see{
+	
+	padding: 15px 25px;
+font-family: 'Roboto Slab', serif;
+font-size: 15px;
+color: #0F7387;
+opacity: 1;
+margin: 40px 35%;
+border: 1px solid #0F7387;
+float: left;
+clear: left;
+}
+.see:hover{
+	background-color: #0F7387;
+	color: white;
+}
+.picstext{
+height: 170px;
+
+}
+.follow{
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	margin: 20px;
+	color: #0F7387;
+	opacity: 1;
+	font-weight: inherit;
+}
+.house{
+	text-align: center;
+	font-family: 'Signika', sans-serif;
+	margin: 20px;
+	color: #0F7387;
+	font-size: 50px;
+	opacity: 1;
+}
+.picsall{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	overflow:auto;
+}
+.pic1{
+	background-size: cover;
+    width: 363px;
+    height: 400px;
+        margin-bottom: 20px;
+}
+.subscribe{
+	height: 340px;
+	background-color: #F2F4F4;
+}
+.subtext{
+	padding-top: 100px;
+	text-align: center;
+	font-family: 'Signika', sans-serif;
+	font-size: 30px;
+	color: #0F7387;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+.last{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 40px;
+}
+.text2{
+	padding: 5px;
+	color: #0F7387;
+	font-size: 15px;
+	width: 25%;
+margin: 0 20px;
+	
+}
+.text2::placeholder{
+color: #0F7387;
+font-size: 15px;
+}
+.sub2{
+		font-size: 18px;
+	text-align: center;
+	padding: 8px 10px;
+    background-color: #0F7387;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+.terms{
+	display: flex;
+	justify-content: center;
+}
+.linkterm{
+	color: #0F7387;
+	border-right: 1px solid #0F7387;
+font-size: 15px;
+padding: 0 30px;
+   font-family: 'Roboto Slab', serif;
+   margin: 0;
+}
+.linkterm2{
+		color: #0F7387;
+font-size: 15px;
+padding: 0 30px;
+   font-family: 'Roboto Slab', serif;
+   margin: 0;
+}
+.copy{
+	background-color: #0F7387;
+	padding: 15px 0;
+	display: flex;
+	justify-content: center;
+}
+.copy2{
+	font-family: 'Roboto Slab', serif;
+	color: white;
+	font-size: 15px; 
+}
